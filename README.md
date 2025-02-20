@@ -9,14 +9,6 @@ Official placement management system for Central Institute of Technology Kokrajh
 - Alumni interaction portal
 - T&P department administration dashboard
 
-## Installation
-
-```bash
-git clone https://github.com/cit-kokrajhar/placement-portal.git
-cd placement-portal
-npm install
-```
-
 ## Available Scripts
 
 - `npm run dev` - Start development server
