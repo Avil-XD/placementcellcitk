@@ -24,12 +24,11 @@ export default function ReachCard({
           className="object-cover h-full"
         />
       </div>
-      <div className="sm:h-[19rem] bg-gradient-to-r from-teal-500 to-blue-200 sm:w-5/6 sm:pl-96 p-5 sm:rounded-2xl flex flex-col justify-center gap-5  shadow-lg">
+      <div className="sm:h-[19rem] bg-gradient-to-r from-teal-500 to-blue-200 dark:from-teal-600 dark:to-blue-800 sm:w-5/6 sm:pl-96 p-5 sm:rounded-2xl flex flex-col justify-center gap-5 shadow-lg">
         <div className="">
-          <h3 className="text-4xl font-semibold">{title}</h3>
+          <h3 className="text-4xl font-semibold text-white drop-shadow-md">{title}</h3>
         </div>
-
-        <p className="mt-">{description}</p>
+        <p className="mt- text-gray-800 dark:text-gray-100">{description}</p>
       </div>
     </div>
   );

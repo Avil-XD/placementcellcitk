@@ -24,19 +24,18 @@ export default function ReachCardVarTwo({
           className="object-cover h-full"
         />
       </div>
-      <div className="sm:h-96 md:h-80 bg-gradient-to-r from-blue-200 to-teal-500 sm:w-5/6 sm:pr-80 p-7 sm:rounded-2xl flex flex-col justify-center gap-5 shadow-lg">
+      <div className="sm:h-96 md:h-80 bg-gradient-to-r from-blue-200 to-teal-500 dark:from-blue-800 dark:to-teal-600 sm:w-5/6 sm:pr-80 p-7 sm:rounded-2xl flex flex-col justify-center gap-5 shadow-lg">
         <div>
-          <h3 className="text-4xl font-semibold">{title}</h3>
+          <h3 className="text-4xl font-semibold text-white drop-shadow-md">{title}</h3>
         </div>
 
-        <section>
+        <section className="text-gray-800 dark:text-gray-100">
           <p>
             Reaching CIT Kokrajhar by air offers a swift and comfortable way to
             access this esteemed institution nestled in the heart of Assam,
             India.
           </p>
           <ul className="list-disc px-10 py-1">
-           
             <li>
               The viable option for reaching CIT Kokrajhar by air is through
               Guwahati Airport (GAU). Upon arrival at Guwahati Airport,

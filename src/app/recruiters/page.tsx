@@ -17,22 +17,22 @@ export default function RecruitersPage() {
   }));
 
   return (
-    <main className="sm:min-h-screen py-5 px-5 sm:px-10 space-y-5 bg-gray-50">
-      <h1 className="text-4xl font-bold text-center text-gray-800">
+    <main className="sm:min-h-screen py-5 px-5 sm:px-10 space-y-5 bg-gray-50 dark:bg-gray-900">
+      <h1 className="text-4xl font-bold text-center text-gray-800 dark:text-gray-100">
         Our Recruiters
       </h1>
       <section className="flex flex-wrap justify-center gap-5 sm:gap-10 py-7">
         {recruiters.map((recruiter, index) => (
           <div
             key={index}
-            className="w-24 h-24 sm:w-40 sm:h-40 flex items-center justify-center bg-white shadow-md rounded-lg p-2 sm:p-3 transform transition duration-300 hover:scale-105"
+            className="w-24 h-24 sm:w-40 sm:h-40 flex items-center justify-center bg-white dark:bg-gray-800 shadow-md dark:shadow-gray-900/50 rounded-lg p-2 sm:p-3 transform transition duration-300 hover:scale-105 hover:shadow-lg dark:border dark:border-gray-700"
           >
             <Image
               src={recruiter.src}
               alt={recruiter.alt}
               width={100}
               height={100}
-              className="object-contain sm:w-150 sm:h-150"
+              className="object-contain sm:w-150 sm:h-150 dark:brightness-95 dark:contrast-125"
             />
           </div>
         ))}
